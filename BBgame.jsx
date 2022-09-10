@@ -65,6 +65,7 @@ const BBgame = () =>{
         </form>
         <div>시도: {tries.length}</div>
         <ul>
+            
             {tries.map((v,i) => {
                 return (
                    <Try key={`${i+1}차 시도 : `} tryInfo={v}/>
